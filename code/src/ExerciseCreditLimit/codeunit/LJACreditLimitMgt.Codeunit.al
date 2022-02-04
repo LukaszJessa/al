@@ -2,37 +2,44 @@ codeunit 80009 "LJA Credit Limit Mgt."
 {
     procedure ValidateCustomerCreditLimit(Customer: Record Customer)
     var
-        CreditLimitCalculated: Decimal;
-        CreditLimitActual: Decimal;
+        RoundedCreditLimit: Decimal;
+        BaseCreditLimit: Decimal;
     begin
-        CreditLimitCalculated := CalculateCreditLimit(Customer);
-        if CreditLimitCalculated = Customer."Credit Limit (LCY)" then begin
+        BaseCreditLimit := CalculateBaseCreditLimit(Customer);
+        RoundedCreditLimit := RoundCreditLimit(BaseCreditLimit);
+        if RoundedCreditLimit = Customer."Credit Limit (LCY)" then begin
             Message(CreditLimitUpToDateTxt);
             exit;
         end;
 
         if GuiAllowed() then
-            if not Confirm(AreYouSureQst, false, Customer.FieldCaption("Credit Limit (LCY)"), CreditLimitCalculated) then
+            if not Confirm(AreYouSureQst, false, Customer.FieldCaption("Credit Limit (LCY)"), RoundedCreditLimit) then
                 exit;
 
-        CreditLimitActual := CreditLimitCalculated;
-        UpdateCreditLimit(Customer, CreditLimitActual);
-        if CreditLimitActual <> CreditLimitCalculated then
-            Message(CreditLimitROundedTxt, CreditLimitActual);
+        if BaseCreditLimit <> RoundedCreditLimit then
+            Message(CreditLimitRoundedTxt, RoundedCreditLimit);
+        UpdateCreditLimit(Customer, RoundedCreditLimit);
     end;
 
     local procedure UpdateCreditLimit(Customer: Record Customer; NewCreditLimit: Decimal)
     begin
-        NewCreditLimit := Round(NewCreditLimit, 100);
         Customer.Validate("Credit Limit (LCY)", NewCreditLimit);
         Customer.Modify();
     end;
 
-    local procedure CalculateCreditLimit(Customer: Record Customer): Decimal
+    local procedure CalculateBaseCreditLimit(Customer: Record Customer): Decimal
     begin
         Customer.SetRange("Date Filter", CalcDate('<-12M>', WorkDate()), WorkDate());
         Customer.CalcFields("Sales (LCY)", "Balance (LCY)");
         exit(Round(Customer."Sales (LCY)" * 0.5));
+    end;
+
+    local procedure RoundCreditLimit(BaseCreditLimit: Decimal): Decimal
+    var
+        RoundedCreditLimit: Decimal;
+    begin
+        RoundedCreditLimit := Round(BaseCreditLimit, 100);
+        exit(RoundedCreditLimit);
     end;
 
     var
