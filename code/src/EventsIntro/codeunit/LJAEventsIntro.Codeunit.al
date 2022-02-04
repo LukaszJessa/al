@@ -1,4 +1,4 @@
-codeunit 80000 "ALJ Events Intro"
+codeunit 80000 "LJA Events Intro"
 {
     procedure Action()
     begin

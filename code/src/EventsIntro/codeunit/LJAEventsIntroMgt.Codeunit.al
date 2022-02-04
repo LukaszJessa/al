@@ -1,4 +1,4 @@
-codeunit 80002 "ALJ Events Intro Mgt."
+codeunit 80002 "LJA Events Intro Mgt."
 {
     procedure ExtraLogic()
     begin
