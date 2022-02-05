@@ -1,4 +1,4 @@
-pageextension 80002 "LJA Customer" extends "Customer Card"
+pageextension 80002 "LJA Customer Card" extends "Customer Card"
 {
     actions
     {
