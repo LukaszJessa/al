@@ -1,29 +1,30 @@
 codeunit 80000 "LJA Events Intro"
 {
-    procedure Action()
-    begin
-        OnBeforeAction();
-        ActualActionLogic();
-        OnAfterAction();
-    end;
 
     var
         GlobalVar: Boolean;
 
-    local procedure ActualActionLogic()
+    procedure DoLogic()
+    begin
+        OnBeforeDoLogic();
+        BaseLogic();
+        OnAfterDoLogic();
+    end;
+
+    local procedure BaseLogic()
     begin
         Message('BaseLogic()');
         if not GlobalVar then
             GlobalVar := true;
     end;
 
-    [IntegrationEvent(true, false)]
-    local procedure OnBeforeAction()
+    [IntegrationEvent(false, false)]
+    local procedure OnAfterDoLogic()
     begin
     end;
 
-    [IntegrationEvent(false, false)]
-    local procedure OnAfterAction()
+    [IntegrationEvent(true, false)]
+    local procedure OnBeforeDoLogic()
     begin
     end;
 }
