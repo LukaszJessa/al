@@ -26,4 +26,5 @@ codeunit 80011 "LJA Error Handling Mgt."
             Error(MyErrorInfo2);
         end;
     end;
+
 }

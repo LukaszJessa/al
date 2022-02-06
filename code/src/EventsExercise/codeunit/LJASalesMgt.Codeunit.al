@@ -5,15 +5,15 @@ codeunit 80004 "LJA Sales Mgt."
         ValidateCustomerAddress(Customer.Address);
     end;
 
-    local procedure ValidateCustomerAddress(Address: Text[100])
-    begin
-        if CheckForPlusSign(Address) then
-            Message('CheckForPlusSign()');
-    end;
-
     local procedure CheckForPlusSign(TextToCheck: Text): Boolean
     begin
         if StrPos(TextToCheck, '+') > 0 then
             exit(true);
+    end;
+
+    local procedure ValidateCustomerAddress(Address: Text[100])
+    begin
+        if CheckForPlusSign(Address) then
+            Message('CheckForPlusSign()');
     end;
 }
