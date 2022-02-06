@@ -9,6 +9,7 @@ codeunit 80004 "LJA Sales Mgt."
     begin
         if StrPos(TextToCheck, '+') > 0 then
             exit(true);
+
     end;
 
     local procedure ValidateCustomerAddress(Address: Text[100])
