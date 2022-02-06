@@ -1,5 +1,12 @@
+//TODO Refactor code
 codeunit 80009 "LJA Credit Limit Mgt."
 {
+
+    var
+        AreYouSureQst: Label 'Are you sure that you want to set the %1 to %2?', Comment = '%1 value1 %2 value 2';
+        CreditLimitRoundedTxt: Label 'The credit limit was rounded to %1 to comply with company policies.', Comment = '%1 value1';
+        CreditLimitUpToDateTxt: Label 'The credit limit is up to date.';
+
     procedure ValidateCustomerCreditLimit(Customer: Record Customer)
     var
         RoundedCreditLimit: Decimal;
@@ -21,12 +28,6 @@ codeunit 80009 "LJA Credit Limit Mgt."
         UpdateCreditLimit(Customer, RoundedCreditLimit);
     end;
 
-    local procedure UpdateCreditLimit(Customer: Record Customer; NewCreditLimit: Decimal)
-    begin
-        Customer.Validate("Credit Limit (LCY)", NewCreditLimit);
-        Customer.Modify();
-    end;
-
     local procedure CalculateBaseCreditLimit(Customer: Record Customer): Decimal
     begin
         Customer.SetRange("Date Filter", CalcDate('<-12M>', WorkDate()), WorkDate());
@@ -42,8 +43,9 @@ codeunit 80009 "LJA Credit Limit Mgt."
         exit(RoundedCreditLimit);
     end;
 
-    var
-        AreYouSureQst: Label 'Are you sure that you want to set the %1 to %2?', Comment = '%1 value1 %2 value 2';
-        CreditLimitRoundedTxt: Label 'The credit limit was rounded to %1 to comply with company policies.', Comment = '%1 value1';
-        CreditLimitUpToDateTxt: Label 'The credit limit is up to date.';
+    local procedure UpdateCreditLimit(Customer: Record Customer; NewCreditLimit: Decimal)
+    begin
+        Customer.Validate("Credit Limit (LCY)", NewCreditLimit);
+        Customer.Modify();
+    end;
 }
