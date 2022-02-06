@@ -11,6 +11,7 @@ pageextension 80001 CustomerListExt extends "Customer List"
     end;
 
     var
+        Dummy: Boolean;
         CustInvoiceDisc: Record "Cust. Invoice Disc.";
         CustomerAmount: Record "Customer Amount";
         VendorAmount: Record "Vendor Amount";
@@ -18,5 +19,6 @@ pageextension 80001 CustomerListExt extends "Customer List"
     local procedure Init()
     begin
         CustInvoiceDisc.Init();
+        Dummy := true;
     end;
 }
