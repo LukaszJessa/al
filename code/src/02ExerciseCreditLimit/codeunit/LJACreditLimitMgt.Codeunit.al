@@ -43,7 +43,7 @@ codeunit 80009 "LJA Credit Limit Mgt."
     end;
 
     var
-        AreYouSureQst: Label 'Are you sure that you want to set the %1 to %2?';
-        CreditLimitRoundedTxt: Label 'The credit limit was rounded to %1 to comply with company policies.';
+        AreYouSureQst: Label 'Are you sure that you want to set the %1 to %2?', Comment = '%1 value1 %2 value 2';
+        CreditLimitRoundedTxt: Label 'The credit limit was rounded to %1 to comply with company policies.', Comment = '%1 value1';
         CreditLimitUpToDateTxt: Label 'The credit limit is up to date.';
 }
