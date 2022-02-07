@@ -3,6 +3,7 @@
 /// </summary>
 codeunit 80013 "LJA Email"
 {
+
     /// <summary>
     /// Enqueues an email in the outbox to be sent in the background.
     /// </summary>
