@@ -43,6 +43,7 @@ codeunit 80018 "LJA Cust. Grouped By Country"
         SummaryText: TextBuilder;
     begin
         foreach CountryCode in CustomersGroupedByCountry.Keys do begin
+            CustomerNames.Clear();
             foreach CustomerName in CustomersGroupedByCountry.Get(CountryCode) do begin
                 CustomerNames.Append(CustomerName);
                 CustomerNames.Append('|');
