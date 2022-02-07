@@ -6,6 +6,9 @@ codeunit 80020 "LJA Sales Order Mgt."
 
     procedure ValidateSalesOrderOnRelease(var SalesHeader: Record "Sales Header")
     begin
+        if SalesHeader."Document Type" <> SalesHeader."Document Type"::Order then
+            exit;
+
         CheckMandatoryFields(SalesHeader);
     end;
 
