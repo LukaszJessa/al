@@ -1,7 +1,7 @@
 codeunit 80018 "LJA Cust. Grouped By Country"
 {
     var
-        CustomersByCountryCodeMsg: Label 'List of customers for country code %1 : %2', Comment = '%1 country code, %2 customers';
+        CustomersByCountryCodeMsg: Label 'List of customers grouped by country code';
 
     procedure GetCustomersGroupedByCountry()
     begin
@@ -29,7 +29,7 @@ codeunit 80018 "LJA Cust. Grouped By Country"
         Customer.SetRange("Country/Region Code", CountryCode);
         if Customer.FindSet() then
             repeat
-                CustomerNames.Add(Customer.Name);
+                CustomerNames.Add(ShortenCustomerName(Customer.Name));
             until Customer.Next() = 0;
 
         exit(CustomerNames);
@@ -42,6 +42,7 @@ codeunit 80018 "LJA Cust. Grouped By Country"
         CustomerNames: TextBuilder;
         SummaryText: TextBuilder;
     begin
+        SummaryText.AppendLine(CustomersByCountryCodeMsg);
         foreach CountryCode in CustomersGroupedByCountry.Keys do begin
             CustomerNames.Clear();
             foreach CustomerName in CustomersGroupedByCountry.Get(CountryCode) do begin
@@ -49,7 +50,19 @@ codeunit 80018 "LJA Cust. Grouped By Country"
                 CustomerNames.Append('|');
             end;
 
-            SummaryText.AppendLine(StrSubstNo(CustomersByCountryCodeMsg, CountryCode, CustomerNames.ToText()));
+            SummaryText.Append(CountryCode);
+            SummaryText.Append(':');
+            SummaryText.AppendLine(CustomerNames.ToText());
         end;
+
+        Message(SummaryText.ToText());
+    end;
+
+    local procedure ShortenCustomerName(CustomerName: Text): Text
+    begin
+        if Text.StrLen(CustomerName) > 5 then
+            exit(CustomerName.Substring(1, 5));
+
+        exit(CustomerName);
     end;
 }
