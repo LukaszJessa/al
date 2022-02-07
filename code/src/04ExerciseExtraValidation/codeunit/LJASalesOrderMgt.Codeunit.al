@@ -19,7 +19,9 @@ codeunit 80020 "LJA Sales Order Mgt."
         SalesPersonErrorInfo: ErrorInfo;
         RequestedDeliveryDateErrorInfo: ErrorInfo;
     begin
-        SalesReceivablesSetup.Get();
+        if not SalesReceivablesSetup.Get() then
+            SalesReceivablesSetup.Init();
+
         if SalesReceivablesSetup."LJA S. Per. Man. on SO Release" then
             if SalesHeader."Salesperson Code" = '' then begin
                 SalesPersonErrorInfo := ErrorInfo.Create(SalesPersonMandatoryErr);
@@ -33,7 +35,7 @@ codeunit 80020 "LJA Sales Order Mgt."
             if SalesHeader."Requested Delivery Date" = 0D then begin
                 RequestedDeliveryDateErrorInfo := ErrorInfo.Create(RequestedDeliveryDateMandatoryErr);
                 RequestedDeliveryDateErrorInfo.ErrorType := ErrorType::Client;
-                RequestedDeliveryDateErrorInfo.Verbosity := Verbosity::Warning;
+                RequestedDeliveryDateErrorInfo.Verbosity := Verbosity::Error;
                 RequestedDeliveryDateErrorInfo.Collectible(true);
                 Error(RequestedDeliveryDateErrorInfo);
             end;

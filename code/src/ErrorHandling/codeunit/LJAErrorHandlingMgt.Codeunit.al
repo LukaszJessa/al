@@ -1,5 +1,9 @@
 codeunit 80011 "LJA Error Handling Mgt."
 {
+    var
+        SelfExplainedInfo1Err: Label 'Description of what went wrong 1';
+        SelfExplainedInfo2Err: Label 'Description of what went wrong 2';
+
     [ErrorBehavior(ErrorBehavior::Collect)]
     procedure RiseAnError()
     var
@@ -7,8 +11,6 @@ codeunit 80011 "LJA Error Handling Mgt."
         MyErrorInfo2: ErrorInfo;
         SomeCondition1: Boolean;
         SomeCondition2: Boolean;
-        SelfExplainedInfo1Err: Label 'Description of what went wrong 1';
-        SelfExplainedInfo2Err: Label 'Description of what went wrong 2';
     begin
         if not SomeCondition1 then begin
             MyErrorInfo1 := ErrorInfo.Create(SelfExplainedInfo1Err);
