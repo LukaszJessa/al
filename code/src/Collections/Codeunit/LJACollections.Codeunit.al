@@ -29,7 +29,7 @@ codeunit 80010 "LJA Collections"
         CustomerName: Text;
     begin
         foreach CustomerName in CustomerNamesList do
-            message(CustomerName);
+            Message(CustomerName);
     end;
 
     #endregion
@@ -42,7 +42,7 @@ codeunit 80010 "LJA Collections"
     begin
         foreach CountryCode in CustomerByCountriesDictionary.Keys do
             foreach CustomerName in CustomerByCountriesDictionary.Get(CountryCode) do
-                message(CountryCode + CustomerName);
+                Message(CountryCode + CustomerName);
     end;
     #endregion
 
