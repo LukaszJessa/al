@@ -3,6 +3,7 @@ codeunit 80017 "LJA Sales Grouped By Country"
     var
         SalesByCountryCodeMsg: Label 'For country code %1 total sales was %2', Comment = '%1 country code, %2 sales amount';
 
+
     procedure GetSalesAmountsGroupedByCountry()
     begin
         PrintSalesGroupedByCountry(CalculateSalesGroupedByCountry());

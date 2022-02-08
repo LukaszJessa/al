@@ -4,12 +4,14 @@ codeunit 80020 "LJA Sales Order Mgt."
         SalesPersonMandatoryErr: Label 'Sales person is mandatory';
         RequestedDeliveryDateMandatoryErr: Label 'Requested delivery date is mandatory';
 
+    [ErrorBehavior(ErrorBehavior::Collect)]
     procedure ValidateSalesOrderOnRelease(var SalesHeader: Record "Sales Header")
     begin
         if SalesHeader."Document Type" <> SalesHeader."Document Type"::Order then
             exit;
 
         CheckMandatoryFields(SalesHeader);
+        AnotherValidation();
     end;
 
     [ErrorBehavior(ErrorBehavior::Collect)]
@@ -39,5 +41,17 @@ codeunit 80020 "LJA Sales Order Mgt."
                 RequestedDeliveryDateErrorInfo.Collectible(true);
                 Error(RequestedDeliveryDateErrorInfo);
             end;
+    end;
+
+    [ErrorBehavior(ErrorBehavior::Collect)]
+    local procedure AnotherValidation()
+    var
+        AnotherValidationErrorInfo: ErrorInfo;
+    begin
+        AnotherValidationErrorInfo := ErrorInfo.Create('Another validation err');
+        AnotherValidationErrorInfo.ErrorType := ErrorType::Client;
+        AnotherValidationErrorInfo.Verbosity := Verbosity::Error;
+        AnotherValidationErrorInfo.Collectible(true);
+        Error(AnotherValidationErrorInfo);
     end;
 }
