@@ -8,15 +8,15 @@ codeunit 80023 "LJA Test Sales Extra Valid."
         SalesPersonMandatoryErr: Label 'Sales person is mandatory';
 
     [Test]
-    procedure CheckSalesPersonIsMandatoryOnSalesOrderRelease()
+    procedure CheckSalesPersonIsMandatoryOnSalesOrderReleaseForEmptySalesPerson()
     var
         Customer: Record Customer;
         SalesHeader: record "Sales Header";
         SalesReceivablesSetup: Record "Sales & Receivables Setup";
         SalesOrderPage: TestPage "Sales Order";
     begin
-        // [Scenario] 
-        // [Given] 
+        // [Scenario] Sales order without sales person defined. Sales Person is setup to be mandatory in sales & receivables. 
+        // [Given] Sales Person Mandatory on SO Release enabled in sales & receivables setup. Sales Order created with empty sales person.
         LibrarySales.CreateCustomer(Customer);
         if not SalesReceivablesSetup.Get() then
             SalesReceivablesSetup.Init();
@@ -28,22 +28,49 @@ codeunit 80023 "LJA Test Sales Extra Valid."
         SalesOrderPage.OpenEdit();
         SalesOrderPage.GoToRecord(SalesHeader);
         SalesOrderPage.Reopen.Invoke();
-        // [When]         
+        // [When] Release an sales order.         
         asserterror SalesOrderPage.Release.Invoke();
-        // [Then]
+        // [Then] Error should be raised that sales person is mandatory. 
         Assert.ExpectedError(SalesPersonMandatoryErr);
     end;
 
     [Test]
-    procedure CheckSalesPersonIsNotMandatoryOnSalesOrderRelease()
+    procedure CheckSalesPersonIsMandatoryOnSalesOrderReleaseForNonEmptySalesPerson()
     var
         Customer: Record Customer;
         SalesHeader: record "Sales Header";
         SalesReceivablesSetup: Record "Sales & Receivables Setup";
         SalesOrderPage: TestPage "Sales Order";
     begin
-        // [Scenario] 
-        // [Given] 
+        // [Scenario] Sales order with sales person defined. Sales Person is setup to be mandatory in sales & receivables. 
+        // [Given] Sales Person Mandatory on SO Release enabled in sales & receivables setup. Sales Order created with sales person.
+        LibrarySales.CreateCustomer(Customer);
+        if not SalesReceivablesSetup.Get() then
+            SalesReceivablesSetup.Init();
+
+        SalesReceivablesSetup."LJA S. Per. Man. on SO Release" := true;
+        LibrarySales.CreateSalesOrder(SalesHeader);
+        SalesHeader."Salesperson Code" := 'SalesPersonName';
+        SalesHeader.Modify();
+        SalesOrderPage.OpenEdit();
+        SalesOrderPage.GoToRecord(SalesHeader);
+        SalesOrderPage.Reopen.Invoke();
+        // [When] Release an sales order.         
+        asserterror SalesOrderPage.Release.Invoke();
+        // [Then] There should be no error with Sales Person mandatory message.
+        Assert.IsFalse(StrPos(GetLastErrorText(), SalesPersonMandatoryErr) > 0, 'Sales order does not release because of mandatory sales person.');
+    end;
+
+    [Test]
+    procedure CheckSalesPersonIsNotMandatoryOnSalesOrderReleaseForEmptySalesPerson()
+    var
+        Customer: Record Customer;
+        SalesHeader: record "Sales Header";
+        SalesReceivablesSetup: Record "Sales & Receivables Setup";
+        SalesOrderPage: TestPage "Sales Order";
+    begin
+        // [Scenario] Sales order without sales person defined. Sales Person is setup to be mandatory in sales & receivables. 
+        // [Given] Sales Person Mandatory on SO Release disabled in sales & receivables setup. Sales Order created with empty sales person.
         LibrarySales.CreateCustomer(Customer);
         if not SalesReceivablesSetup.Get() then
             SalesReceivablesSetup.Init();
@@ -56,11 +83,9 @@ codeunit 80023 "LJA Test Sales Extra Valid."
         SalesOrderPage.OpenEdit();
         SalesOrderPage.GoToRecord(SalesHeader);
         SalesOrderPage.Reopen.Invoke();
-        // [When]         
+        // [When] Release an sales order.     
         asserterror SalesOrderPage.Release.Invoke();
-        // [Then]
+        // [Then] There should be no error with Sales Person mandatory message.
         Assert.IsFalse(StrPos(GetLastErrorText(), SalesPersonMandatoryErr) > 0, 'Sales order does not release because of mandatory sales person.');
-
-
     end;
 }
