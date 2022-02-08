@@ -7,7 +7,7 @@ codeunit 80009 "LJA Credit Limit Mgt."
         CreditLimitRoundedTxt: Label 'The credit limit was rounded to %1 to comply with company policies.', Comment = '%1 value1';
         CreditLimitUpToDateTxt: Label 'The credit limit is up to date.';
 
-    procedure ValidateCustomerCreditLimit(Customer: Record Customer)
+    procedure ValidateCustomerCreditLimit(var Customer: Record Customer)
     var
         RoundedCreditLimit: Decimal;
         BaseCreditLimit: Decimal;
@@ -43,7 +43,7 @@ codeunit 80009 "LJA Credit Limit Mgt."
         exit(RoundedCreditLimit);
     end;
 
-    local procedure UpdateCreditLimit(Customer: Record Customer; NewCreditLimit: Decimal)
+    local procedure UpdateCreditLimit(var Customer: Record Customer; NewCreditLimit: Decimal)
     begin
         Customer.Validate("Credit Limit (LCY)", NewCreditLimit);
         Customer.Modify();
