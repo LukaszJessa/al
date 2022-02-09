@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="VATStatementCaption">
+          <DataField>VATStatementCaption</DataField>
+        </Field>
+        <Field Name="SourceNoCaption">
+          <DataField>SourceNoCaption</DataField>
+        </Field>
+        <Field Name="SourceNameCaption">
+          <DataField>SourceNameCaption</DataField>
+        </Field>
+        <Field Name="SourceCountryCaption">
+          <DataField>SourceCountryCaption</DataField>
+        </Field>
+        <Field Name="BillToPayToCountryCaption">
+          <DataField>BillToPayToCountryCaption</DataField>
+        </Field>
+        <Field Name="VATRegNoCaption">
+          <DataField>VATRegNoCaption</DataField>
+        </Field>
+        <Field Name="BillToPayToVATRegNoCaption">
+          <DataField>BillToPayToVATRegNoCaption</DataField>
+        </Field>
+        <Field Name="ShipToNoCaption">
+          <DataField>ShipToNoCaption</DataField>
+        </Field>
+        <Field Name="ShipToNameCaption">
+          <DataField>ShipToNameCaption</DataField>
+        </Field>
+        <Field Name="ShipToCountryCaption">
+          <DataField>ShipToCountryCaption</DataField>
+        </Field>
+        <Field Name="ShipmentMethodCodeCaption">
+          <DataField>ShipmentMethodCodeCaption</DataField>
+        </Field>
+        <Field Name="PostingDateCaption">
+          <DataField>PostingDateCaption</DataField>
+        </Field>
+        <Field Name="DocumentDateCaption">
+          <DataField>DocumentDateCaption</DataField>
+        </Field>
+        <Field Name="DocumentNoCaption">
+          <DataField>DocumentNoCaption</DataField>
+        </Field>
+        <Field Name="CurrencyCodeCaption">
+          <DataField>CurrencyCodeCaption</DataField>
+        </Field>
+        <Field Name="TotalAmountFCYCaption">
+          <DataField>TotalAmountFCYCaption</DataField>
+        </Field>
+        <Field Name="VATAmountFCYCaption">
+          <DataField>VATAmountFCYCaption</DataField>
+        </Field>
+        <Field Name="TotalAmountLCYCaption">
+          <DataField>TotalAmountLCYCaption</DataField>
+        </Field>
+        <Field Name="VATAmountLCYCaption">
+          <DataField>VATAmountLCYCaption</DataField>
+        </Field>
+        <Field Name="VATEntryFilter">
+          <DataField>VATEntryFilter</DataField>
+        </Field>
+        <Field Name="TypeCaption">
+          <DataField>TypeCaption</DataField>
+        </Field>
+        <Field Name="VATBusPostingGroupCaption">
+          <DataField>VATBusPostingGroupCaption</DataField>
+        </Field>
+        <Field Name="VATProdPostingGroupCaption">
+          <DataField>VATProdPostingGroupCaption</DataField>
+        </Field>
+        <Field Name="BillToPayTo_VATEntry">
+          <DataField>BillToPayTo_VATEntry</DataField>
+        </Field>
+        <Field Name="BillToPayToName">
+          <DataField>BillToPayToName</DataField>
+        </Field>
+        <Field Name="CountryRegion_VATEntry">
+          <DataField>CountryRegion_VATEntry</DataField>
+        </Field>
+        <Field Name="BillToPayToCountryRegion">
+          <DataField>BillToPayToCountryRegion</DataField>
+        </Field>
+        <Field Name="VATRegNo_VATEntry">
+          <DataField>VATRegNo_VATEntry</DataField>
+        </Field>
+        <Field Name="BillToPayToVATRegNo">
+          <DataField>BillToPayToVATRegNo</DataField>
+        </Field>
+        <Field Name="ShipToCode">
+          <DataField>ShipToCode</DataField>
+        </Field>
+        <Field Name="ShipToName">
+          <DataField>ShipToName</DataField>
+        </Field>
+        <Field Name="ShipToCountryRegion">
+          <DataField>ShipToCountryRegion</DataField>
+        </Field>
+        <Field Name="ShipmentMethodCode">
+          <DataField>ShipmentMethodCode</DataField>
+        </Field>
+        <Field Name="PostingDate_VATEntry">
+          <DataField>PostingDate_VATEntry</DataField>
+        </Field>
+        <Field Name="DocDate_VATEntry">
+          <DataField>DocDate_VATEntry</DataField>
+        </Field>
+        <Field Name="DocNo_VATEntry">
+          <DataField>DocNo_VATEntry</DataField>
+        </Field>
+        <Field Name="Base_VATEntry">
+          <DataField>Base_VATEntry</DataField>
+        </Field>
+        <Field Name="Base_VATEntryFormat">
+          <DataField>Base_VATEntryFormat</DataField>
+        </Field>
+        <Field Name="Amount_VATEntry">
+          <DataField>Amount_VATEntry</DataField>
+        </Field>
+        <Field Name="Amount_VATEntryFormat">
+          <DataField>Amount_VATEntryFormat</DataField>
+        </Field>
+        <Field Name="Type_VATEntry">
+          <DataField>Type_VATEntry</DataField>
+        </Field>
+        <Field Name="VATBusPostingGroup_VATEntry">
+          <DataField>VATBusPostingGroup_VATEntry</DataField>
+        </Field>
+        <Field Name="VATProdPostingGroup_VATEntry">
+          <DataField>VATProdPostingGroup_VATEntry</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

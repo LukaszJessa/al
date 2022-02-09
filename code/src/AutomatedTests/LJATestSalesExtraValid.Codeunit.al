@@ -22,13 +22,14 @@ codeunit 80023 "LJA Test Sales Extra Valid."
             SalesReceivablesSetup.Init();
 
         SalesReceivablesSetup."LJA S. Per. Man. on SO Release" := true;
+        SalesReceivablesSetup.Modify();
         LibrarySales.CreateSalesOrder(SalesHeader);
         SalesHeader."Salesperson Code" := '';
         SalesHeader.Modify();
         SalesOrderPage.OpenEdit();
         SalesOrderPage.GoToRecord(SalesHeader);
         SalesOrderPage.Reopen.Invoke();
-        // [When] Release an sales order.         
+        // [When] Release a sales order.         
         asserterror SalesOrderPage.Release.Invoke();
         // [Then] Error should be raised that sales person is mandatory. 
         Assert.ExpectedError(SalesPersonMandatoryErr);
@@ -49,6 +50,7 @@ codeunit 80023 "LJA Test Sales Extra Valid."
             SalesReceivablesSetup.Init();
 
         SalesReceivablesSetup."LJA S. Per. Man. on SO Release" := true;
+        SalesReceivablesSetup.Modify();
         LibrarySales.CreateSalesOrder(SalesHeader);
         SalesHeader."Salesperson Code" := 'SalesPersonName';
         SalesHeader.Modify();
