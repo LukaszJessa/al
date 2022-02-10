@@ -59,6 +59,6 @@ codeunit 80022 "LJA Test Credit Limit"
     [MessageHandler]
     procedure MessageHandler(Message: Text[1024])
     begin
-
+        ;
     end;
 }
