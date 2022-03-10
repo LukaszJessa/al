@@ -1,35 +1,37 @@
 codeunit 80021 "LJA Lazy Evaluation"
 {
+    var
+        NiceMessageMsg: Label 'Nice message.';
     #region Lazy Evaluation AND
     procedure NoLazyEvaluationAND()
     begin
-        if ExpectTrueButReturnsFalse() and HeavyLogic() then
-            Message('Should not show but AL is not lazy...');
+        if SomeConditionWhichFails() and SomeConditionWithHeavyLogic() then
+            Message(NiceMessageMsg);
     end;
 
     procedure WorkaroundLazyEvaluationAND()
     begin
-        if ExpectTrueButReturnsFalse() then
-            if HeavyLogic() then
-                Message('Should not show but AL is not lazy...');
+        if SomeConditionWhichFails() then
+            if SomeConditionWithHeavyLogic() then
+                Message(NiceMessageMsg);
     end;
     #endregion
 
     #region Lazy Evaluation OR
-
     procedure NoLazyEvaluationOR()
     begin
-        if WillGetTrue() or HeavyLogic() then exit;
+        if WillGetTrue() or SomeConditionWithHeavyLogic() then exit;
     end;
 
     procedure WorkaroundLazyEvaluationOR()
     begin
         if WillGetTrue() then exit;
-        if HeavyLogic() then exit;
+        if SomeConditionWithHeavyLogic() then exit;
     end;
     #endregion
 
-    local procedure ExpectTrueButReturnsFalse(): Boolean
+    #region Local methods
+    local procedure SomeConditionWhichFails(): Boolean
     begin
         Exit(false);
     end;
@@ -39,9 +41,9 @@ codeunit 80021 "LJA Lazy Evaluation"
         Exit(true);
     end;
 
-    local procedure HeavyLogic(): Boolean
+    local procedure SomeConditionWithHeavyLogic(): Boolean
     begin
         Sleep(2000);
     end;
-
+    #endregion
 }
