@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="AL Intro.g.xlf">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1996351552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LJA File Structure</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA File Structure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1996351552 - NamedType 4185433698" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record can not be deleted.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA File Structure - NamedType CanNotBeDeletedErr</note>
+        </trans-unit>
+        <trans-unit id="Table 1996351552 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>[NAB: SUGGESTION]Beschreibung</target>
+          <target>[NAB: SUGGESTION]Description</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA File Structure - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1996351552 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>[NAB: SUGGESTION]Postennummer</target>
+          <target>[NAB: SUGGESTION]Postennr.</target>
+          <target>[NAB: SUGGESTION]Lfd. Nr.</target>
+          <target>[NAB: SUGGESTION]Zeilennr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA File Structure - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1996351552 - Field 2369504894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valid Entry</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA File Structure - Field Valid Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4280695633 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LJA Long Running Data Auto Inc.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Long Running Auto Inc. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4280695633 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>[NAB: SUGGESTION]Postennummer</target>
+          <target>[NAB: SUGGESTION]Postennr.</target>
+          <target>[NAB: SUGGESTION]Lfd. Nr.</target>
+          <target>[NAB: SUGGESTION]Zeilennr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Long Running Auto Inc. - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4280695633 - Field 2125739863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Random Integer</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Long Running Auto Inc. - Field Random Integer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4280695633 - Field 605039914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Random Text</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Long Running Auto Inc. - Field Random Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 872785110 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LJA Long Running Data</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Long Running Data - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 872785110 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>[NAB: SUGGESTION]Postennummer</target>
+          <target>[NAB: SUGGESTION]Postennr.</target>
+          <target>[NAB: SUGGESTION]Lfd. Nr.</target>
+          <target>[NAB: SUGGESTION]Zeilennr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Long Running Data - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 872785110 - Field 2125739863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Random Integer</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Long Running Data - Field Random Integer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 872785110 - Field 605039914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Random Text</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Long Running Data - Field Random Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 167897673 - NamedType 1333961654" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are you sure that you want to set the %1 to %2?</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2">%1 value1 %2 value 2</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Credit Limit Mgt. - NamedType AreYouSureQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 167897673 - NamedType 2381744605" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The credit limit was rounded to %1 to comply with company policies.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2">%1 value1</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Credit Limit Mgt. - NamedType CreditLimitRoundedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 167897673 - NamedType 1760454550" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The credit limit is up to date.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Credit Limit Mgt. - NamedType CreditLimitUpToDateTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 620725079 - NamedType 4081189020" size-unit="char" translate="yes" xml:space="preserve">
+          <source>List of customers grouped by country code</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Cust. Grouped By Country - NamedType CustomersByCountryCodeMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 588996324 - NamedType 1886603092" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description of what went wrong 1</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Error Handling Mgt. - NamedType SelfExplainedInfo1Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 588996324 - NamedType 3718213637" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description of what went wrong 2</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Error Handling Mgt. - NamedType SelfExplainedInfo2Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3846003481 - NamedType 2296595853" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nice message.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Lazy Evaluation - NamedType NiceMessageMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2978461185 - NamedType 131670232" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No. is %1.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2">%1 - Entry No.</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Long Run. Auto Inc. Mgt. - NamedType EntryNoMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2978461185 - NamedType 4206897950" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing finished. Number of SQL Statements = %1</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2">%1 - Number of SQL statements</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Long Run. Auto Inc. Mgt. - NamedType ProcessingFinishedWithNoOfSQLStatementsMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3760945502 - NamedType 131670232" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No. is %1</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2">%1 - Entry No.</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Long Running Mgt. - NamedType EntryNoMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3760945502 - NamedType 3360897252" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing finished.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Long Running Mgt. - NamedType ProcessingFinishedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3760945502 - NamedType 4206897950" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing finished. Number of SQL Statements = %1</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2">%1 - Number of SQL statements</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Long Running Mgt. - NamedType ProcessingFinishedWithNoOfSQLStatementsMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3760945502 - NamedType 20892657" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing finished. Processing time = %1</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2">%1 - Processing time</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Long Running Mgt. - NamedType ProcessingFinishedWithTimeMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1725032918 - NamedType 1698962361" size-unit="char" translate="yes" xml:space="preserve">
+          <source>For country code %1 total sales was %2</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2">%1 country code, %2 sales amount</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Sales Grouped By Country - NamedType SalesByCountryCodeMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2152008483 - NamedType 2030935174" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requested delivery date is mandatory</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Sales Order Mgt. - NamedType RequestedDeliveryDateMandatoryErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2152008483 - NamedType 2819343633" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales person is mandatory</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Sales Order Mgt. - NamedType SalesPersonMandatoryErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2504389205 - NamedType 2819343633" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales person is mandatory</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Test Sales Extra Valid. - NamedType SalesPersonMandatoryErr</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LJA Long Running Data</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Control 2131482676 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Random Decimal field.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Control Random Decimal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Control 605039914 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Random Text field.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Control Random Text - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedAt field.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedBy field.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Control SystemCreatedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemId field.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Control SystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedAt field.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Control SystemModifiedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedBy field.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Control SystemModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 3178349274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Auto Increment</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action AutoIncrement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 3342485918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create 10k entries</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action Create10kEntriesAutoIncrement - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 3342485918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create 10k entries</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action Create10kEntriesAutoIncrement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 89427982 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create one entry</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action CreateOneEntryAutoIncrement - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 89427982 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create one entry</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action CreateOneEntryAutoIncrement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 2176095272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sequence Number</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action SequenceNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 3137122306 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create 1000k entries</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action Create1000k - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 3137122306 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create 1000k entries</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action Create1000k - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 1217841282 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create 10k entries</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action Create10k - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 1217841282 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create 10k entries</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action Create10k - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 2957064528 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create one entry</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action CreateOneEntry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 2957064528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create one entry</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action CreateOneEntry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 1950450811 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get all records</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action GetAllRecords - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 2351197762 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text processing - old way</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action TextProcessingOldWay - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 2351197762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text processing - old way</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action TextProcessingOldWay - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 665073126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text processing - Text Builder</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action TextProcessingTextBuilder - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 872785110 - Action 665073126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text processing - Text Builder</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA Long Running Data - Action TextProcessingTextBuilder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1874297023 - Action 1306239356 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set the interface implementation to Home.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA My Address - Action SendToHome - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1874297023 - Action 1306239356 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send to Home.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA My Address - Action SendToHome - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1874297023 - Action 1244763986 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set the interface implementation to Work.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA My Address - Action SendToWork - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1874297023 - Action 1244763986 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send to Work.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA My Address - Action SendToWork - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1874297023 - Action 2505542762 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select the address.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA My Address - Action WhatsTheAddress - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1874297023 - Action 2505542762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whats the Address?</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page LJA My Address - Action WhatsTheAddress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Statement</source>
+          <target>[NAB: SUGGESTION]MwSt.-Abrechnung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 556182245" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill-to/Pay-to Country</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType BillToPayToCountryTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 473635739" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill-to/Pay-to VAT Reg. No.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType BillToPayToVATRegNoTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 112157198" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>[NAB: SUGGESTION]Währungscode</target>
+          <target>[NAB: SUGGESTION]Währungs- code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType CurrencyCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 742461373" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <target>[NAB: SUGGESTION]Belegdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType DocumentDateTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 3873843658" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target>[NAB: SUGGESTION]Belegnr.</target>
+          <target>[NAB: SUGGESTION]Belegnummer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType DocumentNoTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 2229563192" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>[NAB: SUGGESTION]Buchungsdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType PostingDateTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 3904906198" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Method Code</source>
+          <target>[NAB: SUGGESTION]Lieferbedingungscode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType ShipmentMethodCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 3491248875" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Country</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType ShipToCountryTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 792030658" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Name</source>
+          <target>[NAB: SUGGESTION]Lief. an Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType ShipToNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 890029820" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Code</source>
+          <target>[NAB: SUGGESTION]Lief. an Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType ShipToNoTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 1959549919" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Country</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType SourceCountryTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 1191430094" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Name</source>
+          <target>[NAB: SUGGESTION]Herkunftsname</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType SourceNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 1147969632" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <target>[NAB: SUGGESTION]Herkunftsnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType SourceNoTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 2059082542" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Amount FCY</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType TotalAmountFCYTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 3961285620" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Amount LCY</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType TotalAmountLCYTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 254653772" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target>[NAB: SUGGESTION]Art</target>
+          <target>[NAB: SUGGESTION]Typ</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType TypeTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 26859805" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount FCY</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType VATAmountFCYTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 843874979" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount LCY</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType VATAmountLCYTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 3360114812" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Bus. Posting Group</source>
+          <target>[NAB: SUGGESTION]MwSt.-Geschäftsbuchungsgruppe</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType VATBusPostingGroupTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 678092527" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Prod. Posting Group</source>
+          <target>[NAB: SUGGESTION]MwSt.-Produktbuchungsgruppe</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType VATProdPostingGroupTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 634832222" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Reg. No.</source>
+          <target>[NAB: SUGGESTION]USt-IdNr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType VATRegNoTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 1284032291 - NamedType 1434683994" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Statement GT</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType VATStatementTxt</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3217196489 - Action 360998715 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Update credit limit</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer Card - Action UpdateCreditLimit - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3217196489 - Action 360998715 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Update credit limit</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer Card - Action UpdateCreditLimit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272660891 - NamedType 2783120025" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272660891">
+          <source>%1 summary has been shown.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2">%1 - name of the summary</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - NamedType ActionDoneMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272660891 - NamedType 3328828748" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272660891">
+          <source>Customer grouped by country code</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - NamedType GetCustomersGroupedByCountryCodeSummaryNameLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272660891 - NamedType 509782073" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272660891">
+          <source>Sales grouped by country code</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - NamedType GetSalesGroupedByCountryCodeSummaryNameLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272660891 - Action 1783000075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Get customers grouped by country code</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - Action GetCustomersGroupedByCountryCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272660891 - Action 1783000075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Get Customers By Country Code</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - Action GetCustomersGroupedByCountryCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272660891 - Action 1333059210 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Get total sales grouped by country code</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - Action GetSalesGroupedByCountryCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272660891 - Action 1333059210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Get Total Sales By Country Code</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - Action GetSalesGroupedByCountryCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3405924602 - Action 539225198 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Rise an error</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Item Card - Action RiseAnError - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3405924602 - Action 539225198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Rise an error</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Item Card - Action RiseAnError - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3594448898 - Control 1635422081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>LJA</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Sales &amp; Receiv. Setup - Control LJA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3594448898 - Control 2421078291 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Specifies whether requested delivery date is mandatory on Sales Order release.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Sales &amp; Receiv. Setup - Control LJA R. Del. Date Man. on SO R. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3594448898 - Control 4197453621 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
+          <source>Specifies whether sales person is mandatory on Sales Order release.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Sales &amp; Receiv. Setup - Control LJA S. Per. Man. on SO Release - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3166813203 - Field 2421078291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Requested Delivery Date Mandatory on SO Release</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LJA Sales &amp; Receivables Setup - Field LJA R. Del. Date Man. on SO R. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3166813203 - Field 4197453621 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Sales Person Mandatory on SO Release</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LJA Sales &amp; Receivables Setup - Field LJA S. Per. Man. on SO Release - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1200701606 - EnumValue 3487568930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blue</source>
+          <target>[NAB: SUGGESTION]Blau</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum LJA Color - EnumValue Blue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1200701606 - EnumValue 2899644277 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Green</source>
+          <target>[NAB: SUGGESTION]Grün</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum LJA Color - EnumValue Green - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1200701606 - EnumValue 3750225965 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Red</source>
+          <target>[NAB: SUGGESTION]Rot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum LJA Color - EnumValue Red - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 4056315292 - EnumValue 389783846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3710813537">
+          <source>Contract</source>
+          <target>[NAB: SUGGESTION]Vertrag</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension LJA Sales Document Type - EnumValue Contract - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
