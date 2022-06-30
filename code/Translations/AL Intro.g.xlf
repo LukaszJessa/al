@@ -453,6 +453,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - NamedType GetSalesGroupedByCountryCodeSummaryNameLbl</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2272660891 - NamedType 1501277392" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272660891">
+          <source>Just new label</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - NamedType MyExtraLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2272660891 - Action 1783000075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>Get customers grouped by country code</source>
           <note from="Developer" annotates="general" priority="2"></note>

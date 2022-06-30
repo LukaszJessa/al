@@ -43,6 +43,8 @@ pageextension 80004 "LJA Customer List" extends "Customer List"
         ActionDoneMsg: Label '%1 summary has been shown.', Comment = '%1 - name of the summary';
         GetSalesGroupedByCountryCodeSummaryNameLbl: Label 'Sales grouped by country code';
         GetCustomersGroupedByCountryCodeSummaryNameLbl: Label 'Customer grouped by country code';
+        MyExtraLbl: Label 'Just new label';
+        MyExtra2Lbl: Label 'Just new label2';
 
     local procedure ShowActionDoneMessage(SummaryName: Text)
     begin

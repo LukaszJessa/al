@@ -187,8 +187,9 @@
         </trans-unit>
         <trans-unit id="Codeunit 1725032918 - NamedType 1698962361" size-unit="char" translate="yes" xml:space="preserve">
           <source>For country code %1 total sales was %2</source>
-          <target>Dla kodu kraju %1 sprzedaż całkowita wyniosła %2</target>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2">%1 country code, %2 sales amount</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Sales Grouped By Country - NamedType SalesByCountryCodeMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 2152008483 - NamedType 2030935174" size-unit="char" translate="yes" xml:space="preserve">
@@ -613,56 +614,72 @@
         </trans-unit>
         <trans-unit id="PageExtension 2272660891 - NamedType 2783120025" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272660891">
           <source>%1 summary has been shown.</source>
-          <target>%1 podsumowanie zostało zaprezentowane.</target>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2">%1 - name of the summary</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - NamedType ActionDoneMsg</note>
         </trans-unit>
         <trans-unit id="PageExtension 2272660891 - NamedType 3328828748" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272660891">
           <source>Customer grouped by country code</source>
-          <target>Nabywcy zgrupowanie wg kodu kraju</target>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - NamedType GetCustomersGroupedByCountryCodeSummaryNameLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 2272660891 - NamedType 509782073" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272660891">
           <source>Sales grouped by country code</source>
-          <target>Sprzedaż zgrupowana wg kodu kraju</target>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - NamedType GetSalesGroupedByCountryCodeSummaryNameLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272660891 - NamedType 1501277392" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272660891">
+          <source>Just new label</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - NamedType MyExtraLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 2272660891 - Action 1783000075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>Get customers grouped by country code</source>
-          <target>Prezentuje nabywców zgrupowanych wg kodu kraju</target>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - Action GetCustomersGroupedByCountryCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2272660891 - Action 1783000075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>Get Customers By Country Code</source>
-          <target>Podsumowanie nabywców wg kodów kraju</target>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - Action GetCustomersGroupedByCountryCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2272660891 - Action 1333059210 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>Get total sales grouped by country code</source>
-          <target>Prezentuje sprzedaż zgrupowaną wg kodów kraju</target>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - Action GetSalesGroupedByCountryCode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2272660891 - Action 1333059210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>Get Total Sales By Country Code</source>
-          <target>Podsumowanie sprzedaży wg kodów kraju</target>
+          <target>Sprzedaż całkowita wg kodów krajów</target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - Action GetSalesGroupedByCountryCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3405924602 - Action 539225198 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Rise an error</source>
-          <target>Akcja generująca przykładowy błąd.</target>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Item Card - Action RiseAnError - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3405924602 - Action 539225198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Rise an error</source>
-          <target>Wprowadzenie - Generuj błąd</target>
+          <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Item Card - Action RiseAnError - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3594448898 - Control 1635422081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
