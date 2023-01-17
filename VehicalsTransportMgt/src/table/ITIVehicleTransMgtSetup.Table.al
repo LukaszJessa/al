@@ -10,7 +10,7 @@ table 50000 "ITI Vehicle Trans. Mgt. Setup"
         {
             Caption = 'Primary Key';
         }
-        field(9; "Vehicle Nos."; Code[20])
+        field(10; "Vehicle Nos."; Code[20])
         {
             Caption = 'Vehicle Nos.';
             TableRelation = "No. Series";

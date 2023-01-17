@@ -12,6 +12,10 @@ page 50002 "ITI Models"
         {
             repeater(General)
             {
+                field("MakeCode"; Rec."Make Code")
+                {
+                    ToolTip = 'Specifies the value of the Code field.';
+                }
                 field("Code"; Rec."Code")
                 {
                     ToolTip = 'Specifies the value of the Code field.';

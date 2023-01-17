@@ -2,6 +2,9 @@ table 50001 "ITI Make"
 {
     Caption = 'Make';
     DataClassification = ToBeClassified;
+    DataCaptionFields = Name;
+    DrillDownPageID = "ITI Makes";
+    LookupPageID = "ITI Makes";
 
     fields
     {
@@ -10,7 +13,7 @@ table 50001 "ITI Make"
             Caption = 'Code';
             NotBlank = true;
         }
-        field(2; Name; Text[50])
+        field(10; Name; Text[50])
         {
             Caption = 'Name';
         }
