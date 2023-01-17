@@ -47,6 +47,7 @@ table 50003 "ITI Vehicle"
         field(16; "No. Series"; Code[20])
         {
             Caption = 'No. Series';
+            Editable = false;
             TableRelation = "No. Series";
         }
 

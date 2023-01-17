@@ -1,15 +1,18 @@
-page 50003 "ITI Vehicle Card"
+page 50005 "ITI Vehicle List"
 {
     ApplicationArea = All;
-    Caption = 'Vehicle Card';
-    PageType = Card;
+    Caption = 'Vehicles';
+    CardPageID = "ITI Vehicle Card";
+    Editable = false;
+    PageType = List;
     SourceTable = "ITI Vehicle";
+    UsageCategory = Lists;
 
     layout
     {
         area(content)
         {
-            group(General)
+            repeater(General)
             {
                 field("No."; Rec."No.")
                 {
@@ -18,14 +21,6 @@ page 50003 "ITI Vehicle Card"
                 field(Description; Rec.Description)
                 {
                     ToolTip = 'Specifies the value of the Description field.';
-                }
-                field("Description 2"; Rec."Description 2")
-                {
-                    ToolTip = 'Specifies the value of the Description 2 field.';
-                }
-                field("Vehicle Status"; Rec."Vehicle Status")
-                {
-                    ToolTip = 'Specifies the value of the Vehicle Status field.';
                 }
                 field("Make Code"; Rec."Make Code")
                 {
@@ -39,18 +34,10 @@ page 50003 "ITI Vehicle Card"
                 {
                     ToolTip = 'Specifies the value of the VIN field.';
                 }
-            }
-        }
-
-        area(factboxes)
-        {
-            systempart(Control1900383207; Links)
-            {
-                ApplicationArea = RecordLinks;
-            }
-            systempart(Control1905767507; Notes)
-            {
-                ApplicationArea = Notes;
+                field("Vehicle Status"; Rec."Vehicle Status")
+                {
+                    ToolTip = 'Specifies the value of the Vehicle Status field.';
+                }
             }
         }
     }

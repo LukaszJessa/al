@@ -1,7 +1,7 @@
 page 50002 "ITI Model List"
 {
     ApplicationArea = All;
-    Caption = 'ITI Models';
+    Caption = 'Models';
     PageType = List;
     SourceTable = "ITI Model";
     UsageCategory = Administration;

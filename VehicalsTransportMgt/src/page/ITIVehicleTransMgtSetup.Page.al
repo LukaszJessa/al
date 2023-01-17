@@ -18,4 +18,13 @@ page 50000 "ITI Vehicle Trans. Mgt. Setup"
             }
         }
     }
+
+    trigger OnOpenPage()
+    begin
+        Rec.Reset();
+        if not Rec.Get() then begin
+            Rec.Init();
+            Rec.Insert();
+        end;
+    end;
 }
