@@ -32,6 +32,16 @@ table 50003 "ITI Vehicle"
         {
             Caption = 'VIN';
         }
+        field(14; "Serial Nos."; Code[20])
+        {
+            Caption = 'Serial Nos.';
+            TableRelation = "No. Series";
+        }
+
+        field(15; "Vehicle Status"; Enum "ITI Vehicle Status")
+        {
+            Caption = 'Vehicle Status';
+        }
     }
     keys
     {
