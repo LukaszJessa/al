@@ -1,9 +1,9 @@
-page 50001 "ITI Makes"
+page 50002 "ITI Model List"
 {
     ApplicationArea = All;
-    Caption = 'Makes';
+    Caption = 'ITI Models';
     PageType = List;
-    SourceTable = "ITI Make";
+    SourceTable = "ITI Model";
     UsageCategory = Administration;
 
     layout
@@ -12,6 +12,10 @@ page 50001 "ITI Makes"
         {
             repeater(General)
             {
+                field("MakeCode"; Rec."Make Code")
+                {
+                    ToolTip = 'Specifies the value of the Code field.';
+                }
                 field("Code"; Rec."Code")
                 {
                     ToolTip = 'Specifies the value of the Code field.';

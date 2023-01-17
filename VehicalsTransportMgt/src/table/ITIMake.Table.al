@@ -3,8 +3,8 @@ table 50001 "ITI Make"
     Caption = 'Make';
     DataClassification = ToBeClassified;
     DataCaptionFields = Name;
-    DrillDownPageID = "ITI Makes";
-    LookupPageID = "ITI Makes";
+    DrillDownPageID = "ITI Make List";
+    LookupPageID = "ITI Make List";
 
     fields
     {
