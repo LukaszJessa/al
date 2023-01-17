@@ -1,8 +1,8 @@
 table 50000 "ITI Vehicle Trans. Mgt. Setup"
 {
     Caption = 'Vehicle Transport Mgt. Setup';
-    DrillDownPageID = "ITI Vehicle Transport Mgt. Setup";
-    LookupPageID = "ITI Vehicle Transport Mgt. Setup";
+    DrillDownPageID = "ITI Vehicle Trans. Mgt. Setup";
+    LookupPageID = "ITI Vehicle Trans. Mgt. Setup";
 
     fields
     {

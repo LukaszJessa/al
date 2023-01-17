@@ -1,4 +1,4 @@
-page 50000 "ITI Vehicle Transport Mgt. Setup"
+page 50000 "ITI Vehicle Trans. Mgt. Setup"
 {
     ApplicationArea = All;
     Caption = 'Vehicle Transport Mgt. Setup';
