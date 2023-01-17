@@ -5,7 +5,7 @@ enum 50000 "ITI Vehicle Status"
 
     value(0; "New")
     {
-        Caption = 'None';
+        Caption = 'New';
     }
 
     value(1; "Preserved")
