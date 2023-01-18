@@ -1,8 +1,6 @@
 table 50007 "ITI Transport Order Line"
 {
     Caption = 'ITI Transport Order Line';
-    //DrillDownPageID = "Sales Lines";
-    //LookupPageID = "Sales Lines";
     DataClassification = ToBeClassified;
 
     fields
@@ -31,6 +29,26 @@ table 50007 "ITI Transport Order Line"
         field(12; "Description 2"; Text[50])
         {
             Caption = 'Description 2';
+        }
+        field(13; "Origin POI Code"; Code[10])
+        {
+            Caption = 'Origin POI Code';
+            TableRelation = "ITI POI".Code;
+        }
+        field(14; "Destination POI Code"; Code[10])
+        {
+            Caption = 'Destination POI Code';
+            TableRelation = "ITI POI".Code;
+        }
+
+        field(15; "Requested Delivery Date"; Date)
+        {
+            Caption = 'Requested Delivery Date';
+        }
+
+        field(16; "Planned Delivery Date"; Date)
+        {
+            Caption = 'Requested Delivery Date';
         }
     }
     keys

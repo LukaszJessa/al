@@ -15,13 +15,13 @@ page 50007 "ITI Transport Order"
                 {
                     ToolTip = 'Specifies the value of the No. field.';
                 }
-                field("Ship-from Name"; Rec."Ship-from Name")
+                field("Origin POI Name"; Rec."Origin POI Name")
                 {
-                    ToolTip = 'Specifies the value of the Ship-from Name field.';
+                    ToolTip = 'Specifies the value of the POI Name field.';
                 }
-                field("Ship-from Name 2"; Rec."Ship-from Name 2")
+                field("Origin POI Name 2"; Rec."Origin POI Name 2")
                 {
-                    ToolTip = 'Specifies the value of the Ship-from Name 2 field.';
+                    ToolTip = 'Specifies the value of the POI Name 2 field.';
                 }
             }
 

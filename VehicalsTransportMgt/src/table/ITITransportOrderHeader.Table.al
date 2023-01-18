@@ -10,38 +10,79 @@ table 50006 "ITI Transport Order Header"
             Caption = 'No.';
             DataClassification = ToBeClassified;
         }
+        field(12; "Origin POI Code"; Code[10])
+        {
+            Caption = 'Origin POI Code';
+            TableRelation = "ITI POI".Code;
+        }
+        field(13; "Origin POI Name"; Text[100])
+        {
+            Caption = 'Origin POI Name';
+        }
+        field(14; "Origin POI Name 2"; Text[50])
+        {
+            Caption = 'Origin POI Name 2';
+        }
+        field(15; "Origin POI Address"; Text[100])
+        {
+            Caption = 'Origin POI Address';
+        }
+        field(16; "Origin POI Address 2"; Text[50])
+        {
+            Caption = 'Origin POI Address 2';
+        }
+        field(17; "Origin POI City"; Text[30])
+        {
+            Caption = 'Origin POI City';
+        }
+        field(18; "Origin POI Contact"; Text[100])
+        {
+            Caption = 'Origin POI Contact';
+        }
 
-        field(12; "Ship-from Code"; Code[10])
+        field(19; "Origin POI Post Code"; Code[20])
         {
-            Caption = 'Ship-from Code';
-            TableRelation = "Ship-to Address";
-        }
-        field(13; "Ship-from Name"; Text[100])
-        {
-            Caption = 'Ship-from Name';
-        }
-        field(14; "Ship-from Name 2"; Text[50])
-        {
-            Caption = 'Ship-from Name 2';
-        }
-        field(15; "Ship-from Address"; Text[100])
-        {
-            Caption = 'Ship-from Address';
-        }
-        field(16; "Ship-from Address 2"; Text[50])
-        {
-            Caption = 'Ship-from Address 2';
-        }
-        field(17; "Ship-from City"; Text[30])
-        {
-            Caption = 'Ship-from City';
-        }
-        field(18; "Ship-from Contact"; Text[100])
-        {
-            Caption = 'Ship-from Contact';
+            Caption = 'Origin POI Post Code';
         }
 
-        field(19; "No. Series"; Code[20])
+        field(20; "Origin POI Country/Region Code"; Code[10])
+        {
+            Caption = 'Origin POI Country/Region Code';
+            TableRelation = "Country/Region";
+        }
+        field(21; "Origin POI County"; Text[30])
+        {
+            Caption = 'Origin POI County';
+        }
+
+        field(22; "Requested Starting Date"; Date)
+        {
+            Caption = 'Requested Starting Date';
+        }
+        field(23; "Planned Starting Date"; Date)
+        {
+            Caption = 'Planned Starting Date';
+        }
+        field(24; "Requested Due Date"; Date)
+        {
+            Caption = 'Requested Due Date';
+        }
+
+        field(25; "Planned Due Date"; Date)
+        {
+            Caption = 'Requested Due Date';
+        }
+        field(26; "Car Transporter No."; Code[20])
+        {
+            Caption = 'Car Transporter No.';
+            TableRelation = Resource."No." where(Type = const(Machine));
+        }
+        field(27; "Driver No."; Code[20])
+        {
+            Caption = 'Driver No.';
+            TableRelation = Resource."No." where(Type = const(Person));
+        }
+        field(100; "No. Series"; Code[20])
         {
             Caption = 'No. Series';
             Editable = false;
