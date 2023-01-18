@@ -17,7 +17,7 @@ table 50007 "ITI Transport Order Line"
 
         field(10; "Vehicle No."; Code[20])
         {
-            Caption = 'Line No.';
+            Caption = 'Vehicle No.';
             TableRelation = "ITI Vehicle"."No.";
         }
 

@@ -27,9 +27,21 @@ page 50008 "ITI Transport Order Subform"
                 {
                     ToolTip = 'Specifies the value of the Description field.';
                 }
-                field("Description 2"; Rec."Description 2")
+                field("Origin POI Code"; Rec."Origin POI Code")
                 {
-                    ToolTip = 'Specifies the value of the Description 2 field.';
+                    ToolTip = 'Specifies the value of the Origin POI Code field.';
+                }
+                field("Destination POI Code"; Rec."Destination POI Code")
+                {
+                    ToolTip = 'Specifies the value of the Destination POI Code field.';
+                }
+                field("Requested Delivery Date"; Rec."Requested Delivery Date")
+                {
+                    ToolTip = 'Specifies the value of the Requested Delivery Date field.';
+                }
+                field("Planned Delivery Date"; Rec."Planned Delivery Date")
+                {
+                    ToolTip = 'Specifies the value of the Requested Delivery Date field.';
                 }
             }
         }

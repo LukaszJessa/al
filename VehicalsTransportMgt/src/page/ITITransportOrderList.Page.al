@@ -1,7 +1,7 @@
 page 50010 "ITI Transport Order List"
 {
     ApplicationArea = All;
-    Caption = 'ITI Transport Order List';
+    Caption = 'Transport Order List';
     CardPageID = "ITI Transport Order";
     DataCaptionFields = "Car Transporter No.";
     Editable = false;
