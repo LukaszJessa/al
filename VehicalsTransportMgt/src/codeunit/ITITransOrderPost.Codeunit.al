@@ -1,5 +1,5 @@
 
-codeunit 50002 "ITI Trans. Order Post Meth"
+codeunit 50002 "ITI Trans. Order Post"
 {
     internal procedure Post(var ITITransportOrderHeader: Record "ITI Transport Order Header"; HideDialog: Boolean)
     var

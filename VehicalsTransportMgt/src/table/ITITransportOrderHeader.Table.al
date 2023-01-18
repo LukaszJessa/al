@@ -111,7 +111,7 @@ table 50006 "ITI Transport Order Header"
 
     procedure Post(HideDialog: Boolean)
     var
-        ITITransOrderPostMeth: Codeunit "ITI Trans. Order Post Meth";
+        ITITransOrderPostMeth: Codeunit "ITI Trans. Order Post";
     begin
         ITITransOrderPostMeth.Post(Rec, HideDialog);
     end;

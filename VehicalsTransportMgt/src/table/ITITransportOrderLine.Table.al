@@ -58,4 +58,16 @@ table 50007 "ITI Transport Order Line"
             Clustered = true;
         }
     }
+
+    procedure CreateVehicleJnlLine(HideDialog: Boolean)
+    var
+        ITICreateVehicleJnlLine: Codeunit "ITI Create Vehicle Jnl. Line";
+    begin
+        ITICreateVehicleJnlLine.CreateVehicleJnlLine(Rec, HideDialog);
+    end;
+
+    procedure CreateVehicleJnlLine()
+    begin
+        CreateVehicleJnlLine(false);
+    end;
 }

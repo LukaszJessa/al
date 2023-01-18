@@ -52,4 +52,16 @@ table 50004 "ITI Vehicle Journal Line"
             Clustered = true;
         }
     }
+
+    procedure Post(HideDialog: Boolean)
+    var
+        ITIVehicleJournalPostMeth: Codeunit "ITI Vehicle Journal Post";
+    begin
+        ITIVehicleJournalPostMeth.Post(Rec, HideDialog);
+    end;
+
+    procedure Post()
+    begin
+        Post(false);
+    end;
 }
