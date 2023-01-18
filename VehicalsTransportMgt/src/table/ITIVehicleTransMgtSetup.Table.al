@@ -15,6 +15,11 @@ table 50000 "ITI Vehicle Trans. Mgt. Setup"
             Caption = 'Vehicle Nos.';
             TableRelation = "No. Series";
         }
+        field(11; "Transport Order Nos."; Code[20])
+        {
+            Caption = 'Transport Order Nos.';
+            TableRelation = "No. Series";
+        }
     }
 
     keys

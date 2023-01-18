@@ -15,6 +15,10 @@ page 50000 "ITI Vehicle Trans. Mgt. Setup"
                 {
                     ToolTip = 'Specifies the value of the Vehicle Nos. field.';
                 }
+                field("Transport Order Nos."; Rec."Transport Order Nos.")
+                {
+                    ToolTip = 'Specifies the value of the Transport Order Nos. field.';
+                }
             }
         }
     }

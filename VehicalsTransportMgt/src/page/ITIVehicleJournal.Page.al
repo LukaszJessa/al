@@ -7,6 +7,7 @@ page 50006 "ITI Vehicle Journal"
     PageType = Worksheet;
     SaveValues = true;
     SourceTable = "ITI Vehicle Journal Line";
+    UsageCategory = Tasks;
 
     layout
     {
@@ -26,7 +27,7 @@ page 50006 "ITI Vehicle Journal"
                 {
                     ToolTip = 'Specifies the value of the Vehicle Event Type field.';
                 }
-                field("Event DateTime"; Rec."Event DateTime")
+                field("Event Date"; Rec."Event Date")
                 {
                     ToolTip = 'Specifies the value of the Event DateTime field.';
                 }

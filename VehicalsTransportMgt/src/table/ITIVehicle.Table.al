@@ -3,8 +3,8 @@ table 50003 "ITI Vehicle"
     Caption = 'Vehicle';
     DataClassification = ToBeClassified;
     DataCaptionFields = "No.", Description;
-    DrillDownPageID = "ITI Make List";
-    LookupPageID = "ITI Make List";
+    DrillDownPageID = "ITI Vehicle List";
+    LookupPageID = "ITI Vehicle List";
 
     fields
     {

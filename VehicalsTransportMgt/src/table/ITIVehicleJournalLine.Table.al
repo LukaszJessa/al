@@ -13,7 +13,7 @@ table 50004 "ITI Vehicle Journal Line"
 
         field(10; "Vehicle No."; Code[20])
         {
-            Caption = 'Account No.';
+            Caption = 'Vehicle No.';
             DataClassification = ToBeClassified;
             TableRelation = "ITI Vehicle";
         }
@@ -23,9 +23,9 @@ table 50004 "ITI Vehicle Journal Line"
             DataClassification = ToBeClassified;
         }
 
-        field(12; "Event DateTime"; DateTime)
+        field(12; "Event Date"; Date)
         {
-            Caption = 'Event DateTime';
+            Caption = 'Event Date';
             DataClassification = ToBeClassified;
         }
 
