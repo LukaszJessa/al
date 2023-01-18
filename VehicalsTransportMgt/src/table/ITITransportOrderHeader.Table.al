@@ -108,4 +108,16 @@ table 50006 "ITI Transport Order Header"
             NoSeriesManagement.InitSeries(ITIVehicleTransMgtSetup."Transport Order Nos.", xRec."No. Series", 0D, "No.", "No. Series");
         end;
     end;
+
+    procedure Post(HideDialog: Boolean)
+    var
+        ITITransOrderPostMeth: Codeunit "ITI Trans. Order Post Meth";
+    begin
+        ITITransOrderPostMeth.Post(Rec, HideDialog);
+    end;
+
+    procedure Post()
+    begin
+        Post(false);
+    end;
 }

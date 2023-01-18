@@ -54,4 +54,22 @@ page 50007 "ITI Transport Order"
             }
         }
     }
+
+    actions
+    {
+        area(Processing)
+        {
+            action(Post)
+            {
+                Caption = 'Post';
+                ToolTip = 'Post';
+                Image = Post;
+
+                trigger OnAction()
+                begin
+                    Rec.Post();
+                end;
+            }
+        }
+    }
 }
