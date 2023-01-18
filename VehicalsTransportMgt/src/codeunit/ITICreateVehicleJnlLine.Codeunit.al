@@ -17,7 +17,8 @@ codeunit 50003 "ITI Create Vehicle Jnl. Line"
         if IsHandled then
             exit;
 
-
+        CheckTransportOrderLine(ITITransportOrderLine);
+        CreateVehicleJnlLine(ITITransportOrderLine);
     end;
 
     local procedure ConfirmCreateVehicleJnlLine(var ITITransportOrderLine: Record "ITI Transport Order Line"; HideDialog: Boolean): Boolean
@@ -39,6 +40,22 @@ codeunit 50003 "ITI Create Vehicle Jnl. Line"
         if not GuiAllowed or HideDialog then exit;
         Message(AcknowledgeMsg);
     end;
+
+    local procedure CheckTransportOrderLine(var ITITransportOrderLine: Record "ITI Transport Order Line")
+    begin
+        ;
+    end;
+
+    local procedure CreateVehicleJnlLine(var ITITransportOrderLine: Record "ITI Transport Order Line")
+    var
+        ITIVehicleJournalLine: Record "ITI Vehicle Journal Line";
+    begin
+        ITIVehicleJournalLine.Init();
+        ITIVehicleJournalLine.Validate("Vehicle No.", ITITransportOrderLine."Vehicle No.");
+        ITIVehicleJournalLine.Validate("Vehicle Activity Type", ITIVehicleJournalLine."Vehicle Activity Type"::Load);
+        ITIVehicleJournalLine.Insert(true);
+    end;
+
 
     [IntegrationEvent(false, false)]
     local procedure OnBeforeCreateVehicleJnlLine(var ITITransportOrderLine: Record "ITI Transport Order Line"; var IsHandled: Boolean);

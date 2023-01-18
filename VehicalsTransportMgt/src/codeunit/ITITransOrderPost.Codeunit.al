@@ -17,7 +17,18 @@ codeunit 50002 "ITI Trans. Order Post"
         if IsHandled then
             exit;
 
+        CreateVehicleJnlLines(ITITransportOrderHeader);
+    end;
 
+    local procedure CreateVehicleJnlLines(var ITITransportOrderHeader: Record "ITI Transport Order Header")
+    var
+        ITITransportOrderLine: Record "ITI Transport Order Line";
+    begin
+        ITITransportOrderLine.SetRange("Document No.", ITITransportOrderHeader."No.");
+        if ITITransportOrderLine.FindSet() then
+            repeat
+                ITITransportOrderLine.CreateVehicleJnlLine();
+            until ITITransportOrderLine.Next() = 0;
     end;
 
     local procedure ConfirmPost(var ITITransportOrderHeader: Record "ITI Transport Order Header"; HideDialog: Boolean): Boolean
