@@ -23,11 +23,11 @@ page 50006 "ITI Vehicle Journal"
                 {
                     ToolTip = 'Specifies the value of the Account No. field.';
                 }
-                field("Vehicle Event Type"; Rec."Vehicle Event Type")
+                field("Vehicle Activity Type"; Rec."Vehicle Activity Type")
                 {
                     ToolTip = 'Specifies the value of the Vehicle Event Type field.';
                 }
-                field("Event Date"; Rec."Event Date")
+                field("Activity Date"; Rec."Activity Date")
                 {
                     ToolTip = 'Specifies the value of the Event DateTime field.';
                 }

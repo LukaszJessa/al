@@ -1,4 +1,4 @@
-enum 50001 "ITI Vehicle Event Type"
+enum 50001 "ITI Vehicle Activity Type"
 {
     Extensible = true;
 

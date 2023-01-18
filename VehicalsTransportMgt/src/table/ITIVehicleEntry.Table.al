@@ -17,15 +17,15 @@ table 50005 "ITI Vehicle Entry"
             DataClassification = ToBeClassified;
             TableRelation = "ITI Vehicle";
         }
-        field(11; "Vehicle Event Type"; Enum "ITI Vehicle Event Type")
+        field(11; "Vehicle Activity Type"; Enum "ITI Vehicle Activity Type")
         {
-            Caption = 'Vehicle Event Type';
+            Caption = 'Vehicle Activity Type';
             DataClassification = ToBeClassified;
         }
 
-        field(12; "Event Date"; Date)
+        field(12; "Activity Date"; Date)
         {
-            Caption = 'Event Date';
+            Caption = 'Activity Date';
             DataClassification = ToBeClassified;
         }
 
