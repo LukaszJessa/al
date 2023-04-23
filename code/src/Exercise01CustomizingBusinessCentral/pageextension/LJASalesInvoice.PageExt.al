@@ -1,10 +1,10 @@
-pageextension 80009 "LJA Customer Ledger Entries" extends "Customer Ledger Entries"
+pageextension 80007 "LJA Sales Invoice" extends "Sales Invoice"
 {
     layout
     {
-        addafter(Description)
+        addafter("Your Reference")
         {
-            field("LJA Custom Reference"; Rec."Custom Reference")
+            field("LJA Custom Reference"; Rec."LJA Custom Reference")
             {
                 ApplicationArea = Basic, Suite;
                 Importance = Promoted;
