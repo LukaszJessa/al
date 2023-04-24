@@ -4,7 +4,7 @@ pageextension 80008 "LJA Posted Sales Invoice" extends "Posted Sales Invoice"
     {
         addafter("Your Reference")
         {
-            field("LJA Custom Reference"; Rec."Custom Reference")
+            field("LJA Custom Reference"; Rec."LJA Custom Reference")
             {
                 ApplicationArea = Basic, Suite;
                 Importance = Promoted;

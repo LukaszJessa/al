@@ -8,7 +8,7 @@ reportextension 80000 "LJA Sales - Invoice GB" extends "Sales - Invoice GB"
     {
         add("Sales Invoice Header")
         {
-            column(CustomReference; "Custom Reference")
+            column(CustomReference; "LJA Custom Reference")
             {
             }
         }
