@@ -1,3 +1,6 @@
+namespace Jessa.Playground;
+
+using Microsoft.Sales.Document;
 codeunit 80016 "LJA Ev. Item Charge A. Mgt."
 {
     [EventSubscriber(ObjectType::Table, Database::"Sales Line", 'OnBeforeUpdateItemChargeAssgnt', '', false, false)]

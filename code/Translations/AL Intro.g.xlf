@@ -3,6 +3,116 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="AL Intro">
     <body>
       <group id="body">
+        <trans-unit id="Table 2574427010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2574427010 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2574427010 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2574427010 - Field 2369504894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valid Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line - Field Valid Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1334034703 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>LJA Equipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1334034703 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1334034703 - Field 4267345725 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Equipment Category Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment - Field Equip. Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1334034703 - Field 3441575541 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Equipment Type Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment - Field Equip. Type Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1334034703 - Field 1634127573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Maintenance Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment - Field Last Maintenance Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1334034703 - Field 666366514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Maintenance Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment - Field Next Maintenance Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1334034703 - Field 3968494860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Maintenance Date Formula</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment - Field Next Maintenance Date Formula - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1334034703 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1334034703 - Field 87640997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Serial Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment - Field Serial Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1501831215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Equipment Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1501831215 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment Category - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1501831215 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment Category - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4078731799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Equipment Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4078731799 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment Type - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4078731799 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment Type - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4078731799 - Field 4267345725 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Equipment Category Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment Type - Field Equip. Category Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4078731799 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment Type - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4078731799 - Field 3968494860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Maintenance Date Formula</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table LJA Equipment Type - Field Next Maintenance Date Formula - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1996351552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>LJA File Structure</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -147,11 +257,6 @@
           <source>Sales person is mandatory</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Sales Order Mgt. - NamedType SalesPersonMandatoryErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2504389205 - NamedType 2819343633" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sales person is mandatory</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Test Sales Extra Valid. - NamedType SalesPersonMandatoryErr</note>
         </trans-unit>
         <trans-unit id="Page 872785110 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>LJA Long Running Data</source>
@@ -438,6 +543,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer Card - Action UpdateCreditLimit - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3317512288 - Control 1030421297 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2393537757">
+          <source>Field specifies Custom Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer Ledger Entries - Control LJA Custom Reference - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2272660891 - NamedType 2783120025" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272660891">
           <source>%1 summary has been shown.</source>
           <note from="Developer" annotates="general" priority="2">%1 - name of the summary</note>
@@ -452,6 +562,11 @@
           <source>Sales grouped by country code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - NamedType GetSalesGroupedByCountryCodeSummaryNameLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2272660891 - NamedType 1256781114" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272660891">
+          <source>Just new label2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Customer List - NamedType MyExtra2Lbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 2272660891 - NamedType 1501277392" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2272660891">
           <source>Just new label</source>
@@ -488,6 +603,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Item Card - Action RiseAnError - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2405092001 - Control 1030421297 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
+          <source>Field specifies Custom Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Posted Sales Invoice - Control LJA Custom Reference - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 795406069 - Action 3263540695 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 387971303">
+          <source>Temporary Test</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Purchase Header - Action TemporaryTest - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3594448898 - Control 1635422081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
           <source>LJA</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -503,6 +628,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Sales &amp; Receiv. Setup - Control LJA S. Per. Man. on SO Release - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1358389602 - Control 1030421297 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
+          <source>Field specifies Custom Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Sales Invoice - Control LJA Custom Reference - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2107848747 - Field 1030421297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2733917450">
+          <source>Custom Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LJA Cust. Ledger Entry - Field LJA Custom Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3643964838 - Field 1030421297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1806786327">
+          <source>Custom Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LJA Gen. Journal Line - Field LJA Custom Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2405092001 - Field 1030421297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Custom Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LJA Posted Sales Invoice - Field LJA Custom Reference - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3166813203 - Field 2421078291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
           <source>Requested Delivery Date Mandatory on SO Release</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -512,6 +657,11 @@
           <source>Sales Person Mandatory on SO Release</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension LJA Sales &amp; Receivables Setup - Field LJA S. Per. Man. on SO Release - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1358389602 - Field 1030421297 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Custom Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LJA Sales Invoice - Field LJA Custom Reference - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1200701606 - EnumValue 3487568930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Blue</source>

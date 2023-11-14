@@ -6,6 +6,7 @@ pageextension 80006 "LJA Purchase Header" extends "Purchase Order"
         {
             action(TemporaryTest)
             {
+                ApplicationArea = All;
                 ToolTip = 'Temporary Test';
 
                 trigger OnAction()
