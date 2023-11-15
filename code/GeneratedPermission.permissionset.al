@@ -46,7 +46,7 @@ permissionset 80000 GeneratedPermission
         page "LJA Long Running Data" = X,
         page "LJA My Address" = X,
         codeunit "LJA Lazy Evaluation" = X,
-        codeunit ColumbusGlobal.Cronus."Customer Mgt." = X,
-        tabledata ColumbusGlobal.Cronus."Sales Line" = RIMD,
-        table ColumbusGlobal.Cronus."Sales Line" = X;
+        codeunit ColumbusGlobal.Cronus.DataModel."Customer Mgt." = X,
+        tabledata ColumbusGlobal.Cronus.DataModel."Sales Line" = RIMD,
+        table ColumbusGlobal.Cronus.DataModel."Sales Line" = X;
 }

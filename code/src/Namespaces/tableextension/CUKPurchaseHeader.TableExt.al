@@ -5,7 +5,7 @@ tableextension 80091 "CUK Purchase Header" extends "Purchase Header"
 {
     fields
     {
-        field(80000; "Extra Counter"; Integer)
+        field(80000; "CUK Extra Counter"; Integer)
         {
             Caption = 'Extra Counter';
             DataClassification = CustomerContent;

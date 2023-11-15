@@ -1,10 +1,10 @@
 /// <summary>
 /// Unknown ColumbusGlobal.
 /// </summary>
-namespace ColumbusGlobal.Cronus;
+namespace ColumbusGlobal.Cronus.DataModel;
 
 /// <summary>
-/// 
+/// Sale Line
 /// </summary>
 table 80091 "Sales Line"
 {

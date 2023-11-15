@@ -1,7 +1,8 @@
 /// <summary>
 /// Contains functionality specific for the integrations routines.
 /// </summary>
-namespace ColumbusGlobal.Cronus;
+namespace ColumbusGlobal.Cronus.DataModel;
+
 using Microsoft.Sales.Document;
 /// <summary>
 /// Codeunit Customer Mgt. (ID 80023).
@@ -9,7 +10,7 @@ using Microsoft.Sales.Document;
 codeunit 80023 "Customer Mgt."
 {
     /// <summary>
-    /// Import Customer
+    /// Import Sales Lines
     /// </summary>
     /// <returns>Return value of type Integer.</returns>
     procedure ImportSalesLines(): Integer

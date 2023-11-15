@@ -7,7 +7,7 @@ pageextension 80093 "LJA Item List" extends "Item List"
     {
         addfirst(Availability)
         {
-            action(LJARunImport)
+            action(LJARunImportTryFunction)
             {
                 ApplicationArea = All;
                 Caption = 'Update Item Description [TryFunction]';
@@ -24,7 +24,7 @@ pageextension 80093 "LJA Item List" extends "Item List"
                 end;
             }
 
-            action(LJARunImport2)
+            action(LJARunImportOnRun)
             {
                 ApplicationArea = All;
                 Caption = 'Update Item Description [OnRun]';
@@ -54,6 +54,13 @@ pageextension 80093 "LJA Item List" extends "Item List"
                     Item.ModifyAll("Description 2", '');
                 end;
             }
+        }
+
+        addafter(AdjustInventory_Promoted)
+        {
+            actionref(LJARunImportTryFunctionRef; LJARunImportTryFunction) { }
+            actionref(LJARunImportOnRunRef; LJARunImportOnRun) { }
+            actionref(LJAClearDescriptionRef; LJAClearDescription) { }
         }
     }
 }
