@@ -48,5 +48,10 @@ permissionset 80000 GeneratedPermission
         codeunit "LJA Lazy Evaluation" = X,
         codeunit ColumbusGlobal.Cronus.DataModel."Customer Mgt." = X,
         tabledata ColumbusGlobal.Cronus.DataModel."Sales Line" = RIMD,
-        table ColumbusGlobal.Cronus.DataModel."Sales Line" = X;
+        table ColumbusGlobal.Cronus.DataModel."Sales Line" = X,
+        tabledata "CUK Profile" = RIMD,
+        table "CUK Profile" = X,
+        codeunit "CUK Profile Mgt." = X,
+        codeunit "Import Mgt." = X,
+        page "CUK Profiles" = X;
 }
