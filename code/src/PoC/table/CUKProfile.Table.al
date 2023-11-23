@@ -7,6 +7,7 @@ table 80050 "CUK Profile"
     {
         field(1; "Entry No."; Integer)
         {
+            AutoIncrement = true;
             Caption = 'Entry No.';
         }
 

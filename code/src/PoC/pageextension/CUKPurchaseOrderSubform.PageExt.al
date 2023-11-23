@@ -1,4 +1,4 @@
-pageextension 80011 "CUK Sales Order Subform" extends "Sales Order Subform"
+pageextension 80012 "CUK Purchase Order Subform" extends "Purchase Order Subform"
 {
     actions
     {
@@ -14,7 +14,7 @@ pageextension 80011 "CUK Sales Order Subform" extends "Sales Order Subform"
                 var
                     CUKProfileMgt: codeunit "CUK Profile Mgt.";
                 begin
-                    CUKProfileMgt.PopulateSampleData(Enum::"CUK Profile Document Type"::"Sales Order", Rec."Document No.", Rec."Line No.");
+                    CUKProfileMgt.PopulateSampleData(Enum::"CUK Profile Document Type"::"Purchase Order", Rec."Document No.", Rec."Line No.");
                 end;
             }
 
@@ -28,7 +28,7 @@ pageextension 80011 "CUK Sales Order Subform" extends "Sales Order Subform"
                 var
                     CUKProfileMgt: codeunit "CUK Profile Mgt.";
                 begin
-                    CUKProfileMgt.ShowProfilesPage(Enum::"CUK Profile Document Type"::"Sales Order", Rec."Document No.", Rec."Line No.");
+                    CUKProfileMgt.ShowProfilesPage(Enum::"CUK Profile Document Type"::"Purchase Order", Rec."Document No.", Rec."Line No.");
                 end;
             }
         }
