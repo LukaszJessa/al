@@ -1,7 +1,7 @@
 /// <summary>
 /// Contains functionality specific for the integrations routines.
 /// </summary>
-namespace ColumbusGlobal.Cronus.DataModel;
+namespace MyGlobal.Cronus.DataModel;
 
 using Microsoft.Sales.Document;
 /// <summary>

@@ -1,12 +1,12 @@
 /// <summary>
 /// Unknown ColumbusGlobal.
 /// </summary>
-namespace ColumbusGlobal.Cronus.DataModel;
+namespace MyGlobal.Cronus.DataModel;
 
 /// <summary>
 /// Sale Line
 /// </summary>
-table 80091 "Sales Line"
+table 80091 "New Sales Line"
 {
     Caption = 'Sales Line';
     DataClassification = ToBeClassified;

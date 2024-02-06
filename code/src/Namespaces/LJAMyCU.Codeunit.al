@@ -1,7 +1,7 @@
 /// <summary>
 /// Unknown MyBrandNewNamespace.
 /// </summary>
-namespace ColumbusGlobal.Cronus;
+namespace MyGlobal.Cronus;
 
 /// <summary>
 /// Codeunit LJA My CU (ID 80010).

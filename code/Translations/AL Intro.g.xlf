@@ -3,25 +3,60 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="AL Intro">
     <body>
       <group id="body">
-        <trans-unit id="Table 2574427010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 166856278 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Line</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table New Sales Line - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2574427010 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 166856278 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line - Field Description - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table New Sales Line - Field Description - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2574427010 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 166856278 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Entry No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line - Field Entry No. - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table New Sales Line - Field Entry No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2574427010 - Field 2369504894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 166856278 - Field 2369504894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Valid Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Sales Line - Field Valid Entry - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table New Sales Line - Field Valid Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2654975234 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CUK Profiles</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CUK Profile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2654975234 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CUK Profile - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2654975234 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CUK Profile - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2654975234 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CUK Profile - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2654975234 - Field 1674499922 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Option Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CUK Profile - Field Option Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2654975234 - Field 1496577196 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Option Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CUK Profile - Field Option Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2654975234 - Field 1784371640 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CUK Profile Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CUK Profile - Field Profile Document Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1334034703 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>LJA Equipment</source>
@@ -257,6 +292,21 @@
           <source>Sales person is mandatory</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit LJA Sales Order Mgt. - NamedType SalesPersonMandatoryErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1333316335 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Profiles</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CUK Profiles - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1333316335 - Control 1674499922 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Option Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CUK Profiles - Control Option Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1333316335 - Control 1496577196 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Option Value field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CUK Profiles - Control Option Value - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 872785110 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>LJA Long Running Data</source>
@@ -533,6 +583,46 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report LJA VAT Statement - NamedType VATStatementTxt</note>
         </trans-unit>
+        <trans-unit id="PageExtension 984457142 - Action 3493365242 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
+          <source>Shows sales line profiles</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CUK Purchase Order Subform - Action CUKShowProfiles - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 984457142 - Action 3493365242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
+          <source>Profiles</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CUK Purchase Order Subform - Action CUKShowProfiles - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 984457142 - Action 2513849226 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
+          <source>Populate sample data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CUK Purchase Order Subform - Action CUKShowProfilesPopulateSampleData - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 984457142 - Action 2513849226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
+          <source>Profiles - Init</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CUK Purchase Order Subform - Action CUKShowProfilesPopulateSampleData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 131680259 - Action 3493365242 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
+          <source>Shows sales line profiles</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CUK Sales Order Subform - Action CUKShowProfiles - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 131680259 - Action 3493365242 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
+          <source>Profiles</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CUK Sales Order Subform - Action CUKShowProfiles - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 131680259 - Action 2513849226 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
+          <source>Populate sample data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CUK Sales Order Subform - Action CUKShowProfilesPopulateSampleData - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 131680259 - Action 2513849226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
+          <source>Profiles - Init</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CUK Sales Order Subform - Action CUKShowProfilesPopulateSampleData - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1613735485 - Control 2000650037 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3542408424">
           <source>Specifies the value of the RichText Content field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -648,10 +738,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Posted Sales Invoice - Control LJA Custom Reference - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 795406069 - Action 3263540695 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 387971303">
-          <source>Temporary Test</source>
+        <trans-unit id="PageExtension 2175051502 - Control 3196925662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 387971303">
+          <source>Specifies the value of the Additional Information field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Purchase Header - Action TemporaryTest - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Purchase Order - Control LJA Additional Information - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1492933850 - Control 3196925662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3321822267">
+          <source>Specifies the value of the Additional Information field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Purchase Quote - Control LJA Additional Information - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 299902040 - Control 3196925662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 294608717">
+          <source>Specifies the value of the Additional Information field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Purchase Quote Archive - Control LJA Additional Information - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3594448898 - Control 1635422081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4145206282">
           <source>LJA</source>
@@ -673,11 +773,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension LJA Sales Invoice - Control LJA Custom Reference - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="TableExtension 3083754243 - Field 545869533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
-          <source>Extra Counter</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension CUK Purchase Header - Field CUK Extra Counter - Property Caption</note>
-        </trans-unit>
         <trans-unit id="TableExtension 636081969 - Field 2000650037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3993128796">
           <source>LJA RichText Content</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -698,6 +793,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension LJA Posted Sales Invoice - Field LJA Custom Reference - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 795406069 - Field 3196925662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
+          <source>Additional Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LJA Purchase Header - Field LJA Additional Information - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 931889443 - Field 3196925662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 146271610">
+          <source>Additional Information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension LJA Purchase Header Archive - Field LJA Additional Information - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3166813203 - Field 2421078291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
           <source>Requested Delivery Date Mandatory on SO Release</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -712,6 +817,26 @@
           <source>Custom Reference</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension LJA Sales Invoice - Field LJA Custom Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2608605139 - EnumValue 4048657685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CUK Profile Document Type - EnumValue Posted Purchase Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2608605139 - EnumValue 2420212404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Sales Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CUK Profile Document Type - EnumValue Posted Sales Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2608605139 - EnumValue 387971303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CUK Profile Document Type - EnumValue Purchase Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2608605139 - EnumValue 1673401186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CUK Profile Document Type - EnumValue Sales Order - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1200701606 - EnumValue 3487568930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Blue</source>
